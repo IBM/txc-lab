@@ -1,0 +1,8 @@
+{
+  "description": "Country Management subsystem of SAMCO",
+  "includePath": [
+    "qprotosrc"
+  ],
+  "curlib": "&CURLIB",
+  "buildCommand": "makei build"
+}

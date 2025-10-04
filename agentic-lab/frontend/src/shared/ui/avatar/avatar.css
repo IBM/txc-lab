@@ -1,0 +1,73 @@
+.avatar {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-small {
+  width: 24px;
+  height: 24px;
+}
+
+.avatar-medium {
+  width: 40px;
+  height: 40px;
+}
+
+.avatar-large {
+  width: 48px;
+  height: 48px;
+}
+
+/* Override specific existing styles with higher specificity */
+.nav-link .avatar.user-pic {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.card-footer .avatar.comment-author-img,
+.article-page .avatar.comment-author-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.profile-page .avatar.user-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.avatar-placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 500;
+  user-select: none;
+  text-align: center;
+  line-height: 1;
+}
+
+.avatar-placeholder.avatar-small {
+  font-size: 10px;
+}
+
+.avatar-placeholder.avatar-medium {
+  font-size: 14px;
+}
+
+.avatar-placeholder.avatar-large {
+  font-size: 36px;
+}
+
+.avatar-initials {
+  display: block;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}

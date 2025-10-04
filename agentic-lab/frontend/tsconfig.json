@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "outDir": "./dist/",
+    "baseUrl": ".",
+    "paths": {
+      "~app/*": ["./src/app/*"],
+      "~pages/*": ["./src/pages/*"],
+      "~widgets/*": ["./src/widgets/*"],
+      "~features/*": ["./src/features/*"],
+      "~entities/*": ["./src/entities/*"],
+      "~shared/*": ["./src/shared/*"]
+    }
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "exclude": ["node_modules", "dist", "build", "coverage"]
+}

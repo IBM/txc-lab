@@ -1,0 +1,16 @@
+.ve
+.idea
+.DS_Store
+__pycache__
+*.pyc
+.env
+.env.dev
+.env.test
+.env.local
+.coverage
+google_credentials.json
+./test.py
+venv/
+venv
+.bob/mcp.json
+
